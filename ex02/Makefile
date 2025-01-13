@@ -1,8 +1,8 @@
 CC 		= c++
 CFLAGS	= -Wall -Wextra -Werror -std=c++98 -g
-NAME	= ex01
+NAME	= ex02
 
-SRCS		= main.cpp Serializer.cpp
+SRCS		= main.cpp Base.cpp A.cpp B.cpp C.cpp
 OBJS		= $(SRCS:.cpp=.o)
 
 %.o: %.cpp

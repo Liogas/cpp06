@@ -6,7 +6,7 @@
 /*   By: glions <glions@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/10 16:01:32 by glions            #+#    #+#             */
-/*   Updated: 2025/01/10 20:50:29 by glions           ###   ########.fr       */
+/*   Updated: 2025/01/13 13:18:03 by glions           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ void ScalarConverter::convert(const std::string &literal) {
     // FLOAT
     try {
         float f = std::atof(literal.c_str());
-        std::cout << std::fixed << std::setprecision(1) << "float: " << f << "f" << std::endl;
+        std::cout << "float: " << f << "f" << std::endl;
     } catch (std::exception &e) {
         std::cout << "float: impossible" << std::endl;
     }
